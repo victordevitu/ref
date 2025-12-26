@@ -6,7 +6,7 @@ type TCase = {
 
 export default function CaseCard({ caseData }: { caseData: TCase }) {
   return (
-    <div className="group relative h-48 w-96 cursor-pointer overflow-hidden">
+    <div className="group relative h-96 w-96 cursor-pointer overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center grayscale transition-all duration-500 group-hover:scale-110 group-hover:grayscale-0"
         style={{ backgroundImage: `url(${caseData.imageUrl})` }}></div>
